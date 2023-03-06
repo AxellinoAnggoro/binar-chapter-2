@@ -1,5 +1,8 @@
+import OperationClass.distribution
+
 fun main() {
-    print("Hello")
-    println("Hello world")
+    val kalkulator = distribution()
+    val bagi = kalkulator.bagi(10, 5)
+    println("Hasil pembagian: $bagi")
 
 }
